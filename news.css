@@ -1,0 +1,86 @@
+    .Header{
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        color:black;
+        font-weight: bold;
+        background-color:white;
+    }
+    .Main{
+        width: 50%;
+        text-align: left;
+        padding: 15px;
+        float: left;
+        color:#000000;
+        font-weight: bold;
+        background-color: white;
+    }
+    .Ad{
+        width: 30%;
+        text-align: left;
+        position: fixed;
+        background-color: white; 
+    }
+    .Footer{
+        width:50%;
+        text-align:left;
+        padding: 15px;
+        font-size:15px;
+        float: left;
+        color:black;
+        font-weight:bold;
+        background-color:white;
+    }
+    .Wordsize{
+        width: 100%;
+        text-align: left;
+        font-size: medium;
+        padding: 15px;
+        float: left;
+        color:#000000;
+        font-weight: bold;
+    } 
+    .Bigsize{
+        width: 100%;
+        text-align: left;
+        font-size: large;
+        padding: 15px;
+        float: left;
+        color:#000000;
+        font-weight: bold;
+        background-color: white;
+    }
+    .Smallsize{
+        width: 100%;
+        text-align: left;
+        font-size: small;
+        padding: 15px;
+        float: left;
+        color:#000000;
+        font-weight: bold;
+        background-color: white;
+    }
+    .button {
+        display: inline-block;
+        padding: 15px 15px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color:lightskyblue;
+        border: none;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 15px; 
+        box-shadow: 0 9px #999;
+    }
+
+    .button:hover {background-color: dodgerblue}
+
+    .button:active {
+        background-color: dodgerblue;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
